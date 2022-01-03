@@ -1,0 +1,11 @@
+### list
+GET http://localhost:5000/app/user HTTP/1.1
+
+### read
+GET http://localhost:5000/app/user/c311d48d-90d1-4990-a3d9-57dc91f0d880 HTTP/1.1
+
+### create
+GET http://localhost:5000/app/user/create/chatbotlokitso HTTP/1.1
+
+### delect
+DELETE http://localhost:5000/app/user/9b00c632-b896-4fe3-8f36-6a134531c1a7 HTTP/1.1

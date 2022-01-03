@@ -1,0 +1,24 @@
+Flask==1.1.2
+Flask-Cors==3.0.2
+# nltk==3.6.1
+# pandas==1.2.4
+# beautifulsoup4==4.9.3
+# requests==2.25.1
+# gunicorn
+# coveralls
+# nose
+# pint>=0.8.1
+# pymongo>=3.3,<4.0
+# twine
+# twython
+# spacy>=2.1,<2.2
+# sphinx>=3.0,<3.1
+# sphinx_rtd_theme
+# ChatterBot==1.0.2       
+# chatterbot-corpus==1.2.0
+# facebook_scraper
+# Flask-Cors
+# pymongo==3.11.3
+# dnspython==1.16.0
+# pymongo==3.10.1
+# pyyaml>=5.3,<5.41

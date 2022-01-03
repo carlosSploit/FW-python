@@ -1,0 +1,45 @@
+### list
+GET https://chartbotapike.herokuapp.com/app/mess/list/9b00c632-b896-4fe3-8f36-6a134531c1a7 HTTP/1.1
+
+### insert
+POST http://localhost:5000/app/mess/bb194185-61fc-495f-bb00-26600e183d91 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 17,
+    "input": "default",
+    "inputpalclab": {
+        "idmessege": 17,
+        "tipo": 2,
+        "palabras": [
+            "finalizar",
+            "adios"
+        ]
+    },
+    "ouputs": "Fue bueno hablar contigo"
+}
+
+### update
+### tener en cuenta que la id, se tomara siempre en cuenta
+PUT http://localhost:5000/app/mess/9b00c632-b896-4fe3-8f36-6a134531c1a7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 2,
+    "input": "Hola que tal como",
+    "inputpalclab": {
+        "idmessege": 2,
+        "tipo": "2",
+        "palabras": [
+        "Hola",
+        "Como",
+        "estas"
+        ]
+    },
+    "ouputs": "Pues masomenos hay"
+}
+
+### delect
+### se eliminara con el codigo de usuario, como tambien con el codigo del mensaje
+DELETE http://localhost:5000/app/mess/9b00c632-b896-4fe3-8f36-6a134531c1a7/1 HTTP/1.1
+
